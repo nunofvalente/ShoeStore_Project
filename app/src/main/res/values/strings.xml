@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="login">Login</string>
+    <string name="welcome">Welcome</string>
+    <string name="create_account">Create Account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="welcome_to_our_shoe_store">Welcome to our Shoe Store</string>
+    <string name="in_this_app_we_will_add_shoes_proceed_to_next_page_and_follow_the_instructions">In this app we will add shoes, proceed to next page and follow the instructions!</string>
+    <string name="instructions">Instructions</string>
+    <string name="enter_store">Enter Store</string>
+
+    <string name="instruction_1">In this application you will be able to add your own shoe.\n Application displays a list of shoes and you will be able to add more shoes to the list!</string>
+    <string name="instruction_2">Please press the button to proceed to the Shoe Store</string>
+    <string name="shoe_image">Shoe image</string>
+    <string name="logout">Logout</string>
+</resources>

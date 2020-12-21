@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".screens.welcome.WelcomeFragment">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_to_our_shoe_store"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_16"
+            android:textSize="@dimen/text_22"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/in_this_app_we_will_add_shoes_proceed_to_next_page_and_follow_the_instructions"
+            android:layout_margin="@dimen/margin_16"
+            android:gravity="center"
+            android:textSize="@dimen/text_18"/>
+
+        <Button
+            android:id="@+id/button_instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions"
+            android:background="@drawable/button_drawable"
+            android:gravity="center"
+            android:layout_margin="@dimen/margin_16"
+            android:padding="@dimen/padding_8"/>
+
+    </LinearLayout>
+</layout>
