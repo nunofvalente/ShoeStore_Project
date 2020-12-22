@@ -19,20 +19,22 @@ import com.udacity.shoestore.databinding.FragmentLoginBinding
 class LoginFragment : Fragment() {
 
     private lateinit var binding: FragmentLoginBinding
+    private val activityViewModel: ActivityViewModel by activityViewModels()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_login, container, false)
 
-
         binding.buttonCreateAccount.setOnClickListener {
             if (validateFields()) {
                 view?.findNavController()!!.navigate(LoginFragmentDirections.actionLoginFragmentToWelcomeFragment())
+                activityViewModel.login()
             }
         }
         binding.buttonExistingAccount.setOnClickListener {
             if (validateFields()) {
                 view?.findNavController()!!.navigate(LoginFragmentDirections.actionLoginFragmentToWelcomeFragment())
+                activityViewModel.login()
             }
         }
 

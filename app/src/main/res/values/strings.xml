@@ -16,4 +16,12 @@
     <string name="instruction_2">Please press the button to proceed to the Shoe Store</string>
     <string name="shoe_image">Shoe image</string>
     <string name="logout">Logout</string>
+    <string name="add_shoe">Add Shoe</string>
+    <string name="insert_information_to_add_your_shoe">Insert information to add your shoe!</string>
+    <string name="name">Name</string>
+    <string name="company">Company</string>
+    <string name="description">Description</string>
+    <string name="shoe_size">Shoe Size</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
 </resources>
